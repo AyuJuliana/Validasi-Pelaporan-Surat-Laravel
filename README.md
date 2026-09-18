@@ -1,3 +1,111 @@
+# 📄 Validasi Pelaporan Surat — Laravel
+
+
+A web-based application built with **Laravel** to support the management and validation of letter reporting processes. The project demonstrates the implementation of a structured web application with database management, routing, validation, and testing.
+
+## ✨ Features
+
+* 📄 Letter reporting management
+* ✅ Data validation
+* 🗂️ Database management
+* 🔐 Application routing and authentication
+* 🧪 Application testing
+* 📊 Structured web-based workflow
+
+## 🛠️ Tech Stack
+
+* PHP
+* Laravel
+* MySQL
+* Blade
+* JavaScript
+* CSS
+* Vite
+
+## 📂 Project Structure
+
+```text
+Validasi-Pelaporan-Surat-Laravel/
+├── app/
+├── arsip-laravel/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── tests/
+├── composer.json
+├── package.json
+└── vite.config.js
+```
+
+## 🚀 Getting Started
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/AyuJuliana/Validasi-Pelaporan-Surat-Laravel.git
+cd Validasi-Pelaporan-Surat-Laravel
+```
+
+### 2. Install PHP Dependencies
+
+```bash
+composer install
+```
+
+### 3. Configure Environment
+
+Copy the environment file:
+
+```bash
+cp .env.example .env
+```
+
+Configure the database connection in `.env`.
+
+### 4. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### 5. Run Database Migration
+
+```bash
+php artisan migrate
+```
+
+### 6. Run the Application
+
+```bash
+php artisan serve
+```
+
+Open:
+
+```text
+http://localhost:8000
+```
+
+## 🧪 Testing
+
+Run the Laravel test suite using:
+
+```bash
+php artisan test
+```
+
+## 👩🏻‍💻 Author
+
+**Ni Komang Ayu Juliana**
+
+GitHub: https://github.com/AyuJuliana
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
